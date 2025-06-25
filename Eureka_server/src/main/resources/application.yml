@@ -1,0 +1,14 @@
+server:
+  port: 8761
+
+
+spring:
+  application:
+    name: eureka-server
+
+
+eureka:
+  client:
+    register-with-eureka: false
+    #client knek wena eka nwattanna false dla thiyenne
+    fetch-registry: false

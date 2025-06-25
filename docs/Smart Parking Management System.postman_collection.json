@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\r\n  \"name\": \"Bishmi\",\r\n  \"email\": \"bishmi@gmail.com\",\r\n  \"password\": \"bishmi123\",\r\n  \"role\": \"DRIVER\"\r\n}\r\n",
+							"raw": "{\r\n\r\n  \"name\": \"Dil\",\r\n  \"email\": \"dil@gmail.com\",\r\n  \"password\": \"dili123\",\r\n  \"role\": \"DRIVER\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -428,7 +428,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"licensePlate\": \"CD1234\",\r\n  \"userEmail\": \"bishmi@gmail.com\",\r\n  \"parkingLocation\": \"colombo main street\"\r\n}\r\n",
+							"raw": "{\r\n  \"licensePlate\": \"DD1234\",\r\n  \"userEmail\": \"dil@gmail.com\",\r\n  \"parkingLocation\": \"galle main street\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -459,7 +459,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8082/payment-service/api/v1/payments/getPaymentUseByEmail?email=bishmi@gmail.com",
+							"raw": "http://localhost:8082/payment-service/api/v1/payments/getPaymentUseByEmail?email=dil@gmail.com",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -475,7 +475,7 @@
 							"query": [
 								{
 									"key": "email",
-									"value": "bishmi@gmail.com"
+									"value": "dil@gmail.com"
 								}
 							]
 						}
